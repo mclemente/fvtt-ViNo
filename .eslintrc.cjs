@@ -223,13 +223,9 @@ module.exports = {
 	},
 
 	globals: {
-		CodeMirror: false,
-		Color: false,
-		DocumentSheetConfig: false,
-		globalThis: false,
-		OperatorTerm: false,
-		toml: false,
-		Tagify: false
+		ScrollToPlugin: false,
+		TextPlugin: false,
+		gsap: false
 	},
 
 	overrides: [
