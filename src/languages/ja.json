@@ -6,7 +6,6 @@
 
       "DefaultFontName": "発言テキストのデフォルトのフォントを指定できます。キャラクターがそれを上書きしない限りはここから使用します。",
       "DefaultFontHint": "デフォルト:\"Signika, sans-serif;\"。 フォントファミリーやフォールバックも指定できます。https://github.com/Forien/foundryvtt-forien-custom-fonts より追加のフォントをインストール可能です。",
-      "PreferredSide": "この俳優は画面のどちら側に表示する必要がありますか？",
 
       "SecondsToRenderName": "一文字の描画速度",
       "SecondsToRenderHint": "デフォルト: 0.3 秒",
@@ -45,6 +44,7 @@
       "CoreSettings": "アクターコア設定",
       "VinoEnabled": "このアクターに対して有効になっていますか？",
       "Font": "字体",
+      "PreferredSide": "この俳優は画面のどちら側に表示する必要がありますか？",
       "ActorPortrait": "俳優の肖像画",
       "AlternateDefault": "代替デフォルト",
       "Moods": "ムード",
