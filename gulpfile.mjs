@@ -27,7 +27,7 @@ const distDirectory = "./dist";
 const stylesDirectory = `${sourceDirectory}/styles`;
 const stylesExtension = "css";
 const sourceFileExtension = "js";
-const staticFiles = ["assets", "fonts", "lang", "lib", "packs", "templates", "module.json"];
+const staticFiles = ["languages", "scripts", "templates", "module.js", "module.json"];
 
 /********************/
 /*      BUILD       */
@@ -54,9 +54,7 @@ function buildCode() {
  * Build style sheets
  */
 function buildStyles() {
-	const packageStyle = gulp.src(`${stylesDirectory}/${packageId}.${stylesExtension}`).pipe(gulp.dest(`${distDirectory}/styles`));
-	const fontStyle = gulp.src(`${stylesDirectory}/fonts.${stylesExtension}`).pipe(gulp.dest(`${distDirectory}/styles`));
-	return merge(packageStyle, fontStyle);
+	return gulp.src(`${stylesDirectory}/${packageId}.${stylesExtension}`).pipe(gulp.dest(`${distDirectory}/styles`));
 }
 
 /**
